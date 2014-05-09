@@ -13,5 +13,5 @@
  */
 body { padding-top: 100px; }
 footer { margin-top: 100px; }
-table, td, th { vertical-align: middle; border: 1px solid black; }
+table, td, th { vertical-align: middle; border: 1px; }
 th { border-bottom: 1px solid #DDD; }

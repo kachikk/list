@@ -1,6 +1,6 @@
 <h2>Listing locations</h2>
 
-<table>
+<table border=1>
   <thead>
     
   </thead>
@@ -20,4 +20,4 @@
 
 <br>
 
-<%= link_to 'New Location', new_location_path %>
+
