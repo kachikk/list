@@ -11,6 +11,6 @@ File.open("#{Rails.root}/db/zip_code.csv") do |zip_codes|
     #  to remove the quotes from the csv text:
     
     # to create each record in the database
-    Location.create!(:latitude => latitude, :longitude =>longitude, :name => name, :address => address)             
+    List.create!(:latitude => latitude, :longitude =>longitude, :name => name, :address => address)             
   end
 end
